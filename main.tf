@@ -76,7 +76,7 @@ resource "aws_instance" "ansible_nodes" {
               EOF
 
    tags = {
-       Name = "ANSIBLE NODES"
+       Name = "ANSIBLE TARGET NODES"
    }
 
 }
